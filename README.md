@@ -9,6 +9,6 @@ Multi-module Project Movie App.
 | [datasource-test](/movie/datasource-test/)    | Java/Kotlin Library  | Data-source test fakes.            |
 | [domain  ](/movie/domain/)        | Java/Kotlin Library  | Domain models and classes for the movie Module.                   |
 | [interactors ](/movie/interactors/)   | Java/Kotlin Library  | Use-cases for the movie Module.                                   |
-| [ui-list](/ui-list/)        | Android Library      | UI components for the MovieList screen.                           |
-| [ui-detail](/ui-detail/)      | Android Library      | UI components for the MovieDetail screen.                         | |
+| [ui-list](/movie/ui-list/)        | Android Library      | UI components for the MovieList screen.                           |
+| [ui-detail](/movie/ui-detail/)      | Android Library      | UI components for the MovieDetail screen.                         | |
 | [components](/components/)         | Android Library      | Common Composables.                                              |
