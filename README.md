@@ -1,5 +1,4 @@
-# Work in progress
-Multi-module Project Movie App.
+# Multi-module Project Movie App
 
 | Module name        | Type                 | Description                                                      |
 | -------------      | -------------        | -------------                                                    |
