@@ -1,0 +1,28 @@
+CREATE TABLE movie_Entity(
+    id INTEGER NOT NULL PRIMARY KEY,
+    backdrop_path TEXT,
+    original_language TEXT,
+    original_title TEXT,
+    overview TEXT,
+    popularity REAL,
+    poster_path TEXT,
+    release_date TEXT,
+    title TEXT,
+    vote_average REAL,
+    vote_count INTEGER
+);
+
+selectAll:
+SELECT * FROM movie_Entity ORDER BY popularity DESC LIMIT :limit OFFSET :offset;
+
+insertMovie:
+INSERT OR REPLACE
+INTO movie_Entity (
+    id, backdrop_path, original_language, original_title,
+    overview, popularity, poster_path, release_date, title,
+    vote_average, vote_count
+) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+detailMovie:
+SELECT * FROM movie_Entity
+WHERE id = :id;
